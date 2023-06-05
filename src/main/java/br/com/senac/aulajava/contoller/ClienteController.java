@@ -43,6 +43,8 @@ public class ClienteController {
 
     @FXML
     public void initialize(){
+
+        //alteração para teste de comit
         colunaNome.setCellValueFactory(new PropertyValueFactory<>("nome"));
         colunaDocumento.setCellValueFactory(new PropertyValueFactory<>("documento"));
         colunaRg.setCellValueFactory(new PropertyValueFactory<>("rg"));
