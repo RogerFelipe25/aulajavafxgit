@@ -100,7 +100,7 @@ public class ClienteController {
             }
         }
 
-        this.carregarListaClientes();
+       // this.carregarListaClientes();
 
 
         nome.setText("");
@@ -123,7 +123,7 @@ public class ClienteController {
         rg.setText("");
     }
 
-    public void carregarListaClientes(){
+   public void carregarListaClientes(){
         tabelaClientes.getItems().remove(0, tabelaClientes.getItems().size());
 
         List<Cliente> cliList = ClienteService.carregarClientes();
