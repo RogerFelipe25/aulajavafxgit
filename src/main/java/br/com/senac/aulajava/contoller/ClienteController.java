@@ -100,7 +100,7 @@ public class ClienteController {
             }
         }
 
-       // this.carregarListaClientes();
+       this.carregarListaClientes();
 
 
         nome.setText("");
